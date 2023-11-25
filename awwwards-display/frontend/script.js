@@ -36,6 +36,12 @@ setTimeout(function clickEventRejection() {
   btnNo.addEventListener('click', () => {
     document.querySelector('.age-limit-question-two').innerHTML =
       "Sorry, it seems you are not the right<br> age for gin. Don't hurry things. We<br> never do.";
+
+    setTimeout(() => {
+      console.log("3 sec delay");
+      location.reload()
+    }, "3300")
+    
   });
 }, 2500);
 

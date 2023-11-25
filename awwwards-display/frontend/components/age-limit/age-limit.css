@@ -1,0 +1,160 @@
+/*===================================*\
+*                                     *
+*      AGE LIMIT SECTION STYLES       *
+*                                     *
+\*===================================*/
+#age-limit-section {
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg-clr);
+  font-family: 'Roboto', sans-serif;
+  color: var(--1st-font-clr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/*  ===   Age Limit Container   ===  */
+.age-limit-container {
+  width: 640px;
+  height: 300px;
+  margin-left: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+  opacity: 0;
+  animation: age-limit-container-move 2s ease forwards;
+}
+
+@keyframes age-limit-container-move {
+  from {
+    top: 10%;
+    opacity: 0;
+  }
+  to {
+    top: 0%;
+    opacity: 1;
+  }
+}
+
+.age-limit-question-one {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.age-limit-question-two {
+  font-size: 1.75rem;
+  color: var(--2nd-font-clr);
+  line-height: 2.5rem;
+}
+
+.age-limit-btn-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.age-limit-btn-container .btn {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--3rd-font-clr);
+  background-color: var(--bg-clr);
+  width: 140px;
+  padding: 12px;
+  border: 2px solid var(--3rd-font-clr);
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+
+.age-limit-btn-container .btn:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+/*    ===   Logo&Brand name   ===    */
+.logo-brand-name {
+  width: 240px;
+  margin-right: 50px;
+  position: relative;
+  z-index: 999;
+  opacity: 0;
+  animation: logo-brand-name-move 2s ease forwards;
+}
+
+@keyframes logo-brand-name-move {
+  from {
+    top: 10%;
+    opacity: 0;
+  }
+  to {
+    top: 0%;
+    opacity: 1;
+  }
+}
+
+/*      ===     Petalos     ===      */
+.petalo {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 998;
+  opacity: 0;
+  animation: petalo-move 2s ease forwards;
+}
+
+@keyframes petalo-move {
+  from {
+    top: 30%;
+    opacity: 0;
+  }
+  to {
+    top: 40%;
+    opacity: 1;
+  }
+}
+
+.petalo-background-1 {
+  width: 540px;
+  height: 540px;
+  position: absolute;
+  top: -100px;
+  left: -200px;
+  animation: petalo-bg-1 2s ease forwards;
+}
+
+@keyframes petalo-bg-1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.petalo-background-2 {
+  width: 540px;
+  height: 540px;
+  position: absolute;
+  bottom: -150px;
+  right: -150px;
+  animation: petalo-bg-2 2s ease forwards;
+}
+
+@keyframes petalo-bg-2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

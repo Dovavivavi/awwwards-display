@@ -1,0 +1,94 @@
+@import 'header-image/header-image.css';
+@import 'header-text/header-text.css';
+@import 'petal/petal.css';
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header-section {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 600px;
+  height: 100vh;
+  width: 100%;
+}
+
+.header-container {
+  max-width: 1100px;
+  padding-inline: 5.5rem;
+  padding-top: 180px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container > * {
+  width: 50%;
+}
+
+.p1 {
+  filter: blur(1px);
+  position: absolute;
+  right: 34%;
+  top: 6%;
+  transition: transform 850ms ease-out;
+}
+
+.p2 {
+  filter: blur(2px);
+  position: absolute;
+  top: 67%;
+  right: 17%;
+  transition: transform 850ms ease-out;
+}
+
+.p3 {
+  position: absolute;
+  top: 39%;
+  right: 32%;
+  transition: transform 850ms ease-out;
+}
+
+.p4 {
+  filter: blur(1px);
+  position: absolute;
+  top: 61%;
+  right: 49%;
+  transition: transform 850ms ease-out;
+}
+
+.p5 {
+  filter: blur(7px);
+  position: absolute;
+  top: 23%;
+  right: 35%;
+  z-index: -1;
+  transition: transform 850ms ease-out;
+}
+
+.p6 {
+  position: absolute;
+  top: 45%;
+  left: 13%;
+  transition: transform 850ms ease-out;
+}
+
+.p7 {
+  filter: blur(4px);
+  position: absolute;
+  right: 43%;
+  top: 32%;
+  transition: transform 850ms ease-out;
+}

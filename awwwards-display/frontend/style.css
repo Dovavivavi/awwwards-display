@@ -1,0 +1,36 @@
+/*===================================*\
+*                                     *
+*          IMPORT CSS STYLES          *
+*                                     *
+\*===================================*/
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap';
+@import './components/loading-intro/loading-intro.css';
+@import './components/age-limit/age-limit.css';
+@import './components/header/header.css';
+@import './components/ingredients/ingredients.css';
+@import './components/footer/footer.css';
+
+/*===================================*\
+*                                     *
+*    CUSTOM PROPERTIES - VARIABLES    *
+*                                     *
+\*===================================*/
+:root {
+  --bg-clr: #f7f6f6;
+  --loading-progress-clr: #f0f0f0;
+  --1st-font-clr: #000000;
+  --2nd-font-clr: #444444;
+  --3rd-font-clr: #969696;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}

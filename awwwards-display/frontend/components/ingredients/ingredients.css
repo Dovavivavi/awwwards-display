@@ -1,0 +1,175 @@
+body{
+width: 100vw;
+position: relative;
+background-color: #fcfcfc;
+}
+
+
+#ingredients-section {
+  width: 100vw;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.title-container {
+  width: 60%;
+  margin: 0 auto 80px;
+  position: relative;
+}
+
+.title-container > .title-heading {
+  color: black;
+  position: relative;
+  left: -40px;
+  font-family: 'Yeseva One', cursive;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.title-p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #646464;
+  line-height: 22px;
+  margin: 0, 0, 30px;
+  max-width: 450px;
+}
+
+.botanics {
+  width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #646464;
+  line-height: 22px;
+  margin: 0, 0, 16px;
+  }
+
+h5 {
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 1.67px;
+  line-height: 15px;
+}
+
+.parentesi {
+  color: #646464;
+}
+
+.ingredients-container {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 150px;
+}
+
+.ingredient1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.ingredient2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.ingredient3 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.ingredient4 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.ingredient5 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.image-left {
+  width: 250px;
+  position: absolute;
+  left: calc(-250px / 2);
+}
+
+.image-left:hover {
+    left: 0px;
+    transition: 0.5s;
+  }
+
+.image-left-sakura {
+  width: 150px;
+  position: absolute;
+  left: calc(-150px / 2);
+  transform: rotate(45deg);
+}
+
+.image-left-sakura:hover {
+  left: 0px;
+  transition: 0.5s;
+}
+
+.image-right {
+    width: 250px;
+    position: absolute;
+    right: calc(-250px / 2);
+}
+
+.image-right:hover {
+  right: 0px;
+  transition: 0.5s;
+}
+
+.ico1 {
+  width: 16px;
+  height: auto;
+  left: 100px;
+}
+
+.ico2 {
+  width: 16px;
+}
+
+.ico3 {
+  width: 16px;
+}
+
+.ico4 {
+  width: 16px;
+}
+
+.ico5 {
+  width: 16px;
+}
+
+.sansho-kall {
+  width: 24px;
+}
+
+.shiso-kall {
+  width: 24px;
+}
+
+.hinoki-kall {
+  width: 16px;
+}
+
+.yuzu-kall {
+  width: 50px;
+}
+
+.sakura-kall {
+  width: 40px;
+}

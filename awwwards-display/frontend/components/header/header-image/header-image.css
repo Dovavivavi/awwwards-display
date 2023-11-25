@@ -1,0 +1,12 @@
+.header-image-container {
+  position: relative;
+}
+
+.bottle {
+  position: absolute;
+  top: 100px;
+  left: 25%;
+  height: 600px;
+  transform-origin: 50% 50%;
+  transition: transform 850ms ease-out;
+}

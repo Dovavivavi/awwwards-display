@@ -1,0 +1,82 @@
+/*===================================*\
+*                                     *
+*        LOADING INTRO STYLES         *
+*                                     *
+\*===================================*/
+
+#loading-intro-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--bg-clr);
+	position: relative;
+	overflow: hidden;
+}
+
+.loading-logo {
+	width: 100px;
+	transform-origin: 50% 50%;
+	position: absolute;
+	top: calc(50% - 50px);
+	left: calc(50% - 50px);
+	z-index: 998;
+	animation: logo-rotate 1s ease-in-out 0.75s, logo-hide 0.3s linear 2s forwards;
+}
+
+@keyframes logo-rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes logo-hide {
+	from {
+		top: calc(50% - 50px);
+	}
+	to {
+		top: calc(50% + 100px);
+	}
+}
+
+.loading-progress {
+	width: 0%;
+	height: 100%;
+	background-color: var(--loading-progress-clr);
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: loading-progress-move 1.5s ease-in-out 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes loading-progress-move {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+.loading-logo-hider {
+	width: 0%;
+	height: calc(50% - 50px);
+	background-color: var(--loading-progress-clr);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	animation: loading-logo-hider 2s ease-in-out 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes loading-logo-hider {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 100%;
+	}
+}

@@ -1,0 +1,49 @@
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.title {
+  font-family: serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+}
+
+.text-lg {
+  display: block;
+  max-width: 20ch;
+  line-height: 1;
+  font-size: 2.6rem;
+  font-family: serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #646464;
+}
+
+.text-primary {
+  display: flex;
+  flex-direction: column;
+  max-width: 42ch;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #646464;
+}
+
+.text-primary > * {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.text-secondary {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin-top: 15px;
+  margin-left: 40px;
+  max-width: 40ch;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #9b9b9b;
+}
